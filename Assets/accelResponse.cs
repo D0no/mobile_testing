@@ -6,7 +6,6 @@ public class accelResponse : MonoBehaviour
 {
     [SerializeField] private accelInfo _accelinfo;
     [SerializeField] public float attenuation = 0.01f;
-    Vector3 upDir;
 
     //need to map the forces on these two axis
     Vector3 planeUp;
